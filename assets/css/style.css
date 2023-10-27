@@ -4,9 +4,10 @@ body {
 }
 :root {
   /* --primary:#0024b3; */
-  --primary: #0f15d2;
+  --primary: #0b10a2;
   --hover-primary: #7f83ff;
-  --white:#fff;
+  --light: #fff;
+  --dark: #000;
 }
 a {
   color: var(--primary);
@@ -46,12 +47,12 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #151515;
+  color: var(--light);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #151515;
+  background: var(--black);
 }
 
 .back-to-top:hover i {
@@ -159,10 +160,10 @@ h6 {
   display: inline-block;
   border: 2px solid var(--primary);
 }
-
 .get-started-btn:hover {
-  background: var(--hover-primary);
-  color: var(--white);
+  background: #000000;
+  color: var(--light);
+  border: 1px solid #fff;
 }
 
 @media (max-width: 992px) {
@@ -776,7 +777,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: var(--white);
+  color: var(--light);
   background: var(--primary);
 }
 
@@ -1181,6 +1182,10 @@ section {
   color: #f6f5f5;
   background: var(--primary);
 }
+.team .member .social a.bg-pink:hover {
+  color: #f6f5f5;
+  background: #DD2A7B;
+}
 
 .team .member .social i {
   font-size: 18px;
@@ -1228,7 +1233,7 @@ section {
 .contact .info i {
   font-size: 20px;
   background: var(--primary);
-  color: var(--white);
+  color: var(--light);
   float: left;
   width: 44px;
   height: 44px;
@@ -1238,7 +1243,6 @@ section {
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
 }
-
 
 .contact .info h4 {
   padding: 0 0 0 60px;
@@ -1566,7 +1570,25 @@ section {
   margin-bottom: 50px;
 }
 iframe #contact-form {
-    border: 0;
-    height: 18rem;
-    width: 53rem;
+  border: 0;
+  height: 18rem;
+  width: 53rem;
+}
+
+.btn {
+  background-color: var(--primary);
+}
+.contact-btn {
+  display: block;
+  margin-top: 1.5rem;
+  background-color: var(--primary);
+  color: #fff;
+  transition: 0.5s;
+}
+.contact-btn:hover {
+  color: var(--light);
+  background-color: var(--dark);
+}
+.bg-pink:hover{
+  background: #DD2A7B;
 }
