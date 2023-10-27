@@ -1182,6 +1182,10 @@ section {
   color: #f6f5f5;
   background: var(--primary);
 }
+.team .member .social a.bg-pink:hover {
+  color: #f6f5f5;
+  background: #DD2A7B;
+}
 
 .team .member .social i {
   font-size: 18px;
@@ -1584,4 +1588,7 @@ iframe #contact-form {
 .contact-btn:hover {
   color: var(--light);
   background-color: var(--dark);
+}
+.bg-pink:hover{
+  background: #DD2A7B;
 }
