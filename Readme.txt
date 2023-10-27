@@ -1,1 +1,4 @@
-https://docs.google.com/forms/d/e/1FAIpQLSfsE9fZ2gjHJyBzKdvxN6xMNmXiY845A3AaXISYNRZnm8FupA/viewform?usp=pp_url&entry.491089898=navjevan&entry.491089898=avn@gmak.cm&entry.1582339364=jael&entry.1810049482=asdlfj
+BlueBytes Website link
+
+Contact Us: 
+https://docs.google.com/forms/d/e/1FAIpQLSfsE9fZ2gjHJyBzKdvxN6xMNmXiY845A3AaXISYNRZnm8FupA/viewform
