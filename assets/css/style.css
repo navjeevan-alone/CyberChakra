@@ -4,7 +4,8 @@ body {
 }
 :root {
   /* --primary:#0024b3; */
-  --primary: #ffc451;
+  --primary: #0f15d2;
+  --hover-primary: #7f83ff;
 }
 a {
   color: var(--primary);
@@ -216,7 +217,10 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: var(--primary);
+  color: var(--hover-primary);
+  transition: 0.25s;
+  scale: 1.1;
+  letter-spacing: 1px;
 }
 
 .navbar .dropdown ul {
@@ -539,7 +543,7 @@ section {
   color: #151515;
 }
 .description p {
-    font-size: 20px!important;
+  font-size: 20px !important;
 }
 /*--------------------------------------------------------------
 # About
@@ -1173,7 +1177,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #151515;
+  color: #f6f5f5;
   background: var(--primary);
 }
 
