@@ -301,32 +301,4 @@
   new PureCounter();
 })();
 
-function displayPopup(message) {
-  // Create a popup div
-  var popup = document.createElement("div");
-  popup.className = "popup";
-  popup.innerHTML =
-    '<div class="popup-content">' +
-    '<span class="close-btn" onclick="closePopup()">&times;</span>' +
-    "<p>" +
-    message +
-    "</p>" +
-    "</div>";
 
-  // Append the popup to the body
-  document.body.appendChild(popup);
-}
-
-function closePopup() {
-  var popup = document.querySelector(".popup");
-  if (popup) {
-    document.body.removeChild(popup);
-  }
-}
-
- document
-   .getElementById("contact-form")
-   .addEventListener("submit", function (event) {
-     event.preventDefault(); // Prevent the form from submitting in the traditional way
-     displayPopup("Thank you for your submission!"); // Display the popup alert
-   });
