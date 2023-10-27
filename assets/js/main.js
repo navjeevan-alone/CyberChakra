@@ -202,9 +202,9 @@
       },
       992: {
         slidesPerView: 5,
-        spaceBetween: 120,
-      },
-    },
+        spaceBetween: 120
+      }
+    }
   });
 
   /**
